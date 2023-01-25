@@ -16,6 +16,6 @@ echo "Note: Use Right-Click Or Ctrl+C To Copy"
 echo "Please Keep Colab Tab Open, Maximum Time 12h"
 echo "SUbscribe the Hacktechtv Channel"
 echo "LinK: https://www.youtube.com/channel/UCrjitPSyDiWV6NJIN74pHdQ"
-sudo qemu-system-x86_64 -vnc :0 -hda lite10.qcow2  -smp cores=8  -m 12000M -machine usb=on -device usb-tablet > /dev/null 2>&1
+sudo qemu-system-x86_64 -vnc :0 -hda lite10.qcow2  -smp cores=8  -m 12288M -machine usb=on -device usb-tablet > /dev/null 2>&1
 
 
